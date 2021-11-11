@@ -1,0 +1,64 @@
+
+.container_create {
+    position: absolute;
+    width: 500px;
+    padding: 40px;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+}
+.create {
+    margin: 5px;
+}
+.name {
+    width: 500px;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    background-color: #ee6e73;
+}
+.button_create {
+    margin: 5px;
+    width: 250px;
+    background-color: #ee6e73;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+.button_create:hover { 
+    background: rgba(255, 0, 0, 0.2); 
+}
+.button_create:active {
+    background: rgb(255, 0, 0); 
+}
+.button_exit {
+    margin: 5px;
+    width: 250px;
+    background-color: #ee6e73;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border:none;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+.button_exit:hover { 
+    background: rgba(252, 0, 0, 0.2); 
+}
+.button_exit:active {
+    background: rgb(255, 0, 0); 
+}
+
+.delete {
+    right: 0px;
+    width: 50px;
+    height: 20px;
+    font-size: 10px;
+}
